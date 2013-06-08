@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<Meta charset="utf-8" />
+		<title>Lab2 Validations</title>
+		<style type="text/css">
+		p {
+		margin-left:25px;
+		}
+		</style>
+	</head>
+	<body>
+		<h1> Site Validation </h1>
+		<div>
+        	<h2><a href="http://www.pandora.com/">Pandora &copy;</a></h2>
+				<p><em>Pandora is an Internet radio that has thousands of users everyday.</em>
+                <br />Pandora Radio failed the validation check because the site has many tags
+                that should be self closing tags left unclosed.
+                <br /> -ie. &lt;br /&gt; instead of &lt;br&gt;, &lt;img /&gt; instead of &lt;img&gt;, or &lt;input /&gt; instead of &lt;input&gt;
+                </p>
+        </div>
+		<div>
+				<h2><a href="http://thenounproject.com/">The Noun Project &copy;</a></strong></h2>
+      			<p><em>The noun project is a site that helps you find 
+      				icons to go along with an action</em>
+    				<br />The Noun Project passed the validation test and has no HTML problem.
+      			</p>
+		</div>
+		<div>
+				<h2><a href="http://www.google.com/">Google &copy;</a></strong></h2>
+      			<p><em>Google and a world know search engine</em>
+    				<br />Google problem is it didn't close this tag
+    				&lt;=a&&(a=_gjwl.href.substring(a),0)
+    				<br />They should finish the string and close the tag
+      			</p>
+      	</div>
+      	<div>
+				<h2><a href="http://www.safehousemovement.com/">Safe House Movement &copy;</a></strong></h2>
+      			<p><em>Safe house movement is a website that helps gather donations for a
+      				charity that helps house orphans in south america</em>
+    				<br />Safe House movement has script that is written like HTML
+    				<br />Remove the &gl; in the javascript to the browser doesn't think that
+    				it's closing something
+      			</p>
+		</div>
+    </body>
+</html>
