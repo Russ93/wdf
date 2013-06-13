@@ -1,0 +1,14 @@
+* {
+	font-family: Helvetica, Arial, sans-serif:
+}
+p {
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+	color: #39f;
+}
+nav ul li{
+	display: inline;
+	padding-right: 30px;
+}
