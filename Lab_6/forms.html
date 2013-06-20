@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			Document Creator: Russell Schlup
+			Id Number: 3037399
+			Document Created: 6/08/2013
+		-->
+		<Meta charset="utf-8" />
+		<title>Lab 6: HTML Form</title>
+	</head>
+	<body>
+		<h1>Lab 6: HTML Form</h1>
+		<hr />
+		<h2> Sign Up Page </h2>
+		<form name="input" action="html_form_action.asp" method="get">
+			<!--Input Form-->
+			Username: <input type="text" name="user" /><br />
+			Password: <input type="password" name="pwd" /><br />
+			<!--User Name & Password Input-->
+			First name: <input type="text" name="firstname" /><br />
+			Last name: <input type="text" name="lastname" /><br />
+			<input type="radio" name="sex" value="male" />Male
+			<input type="radio" name="sex" value="female" />Female<br />
+			<!--Selector-->
+			Age:<select>
+				<option value="13-18">13-18</option>
+				<option value="18-25">18-25</option>
+				<option value="25-35">25-35</option>
+				<option value="35-45">35-45</option>
+			</select>
+			<br />
+			<!--Checkboxes -->
+				<input type="checkbox" name="vehicle" value="Bike">I have a bike
+				<input type="checkbox" name="vehicle" value="Car">I have a car<br />
+			<!--Text Area-->
+			<textarea rows="4" cols="50">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+			</textarea><br />
+			<input type="submit" value="Submit">
+		</form>
+		<hr />
+	</body>
+</html>
