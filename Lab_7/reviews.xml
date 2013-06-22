@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+
+
+<channel>
+  <title>New Movie Review</title>
+  <link>http://www.cnn.com/2013/06/21/showbiz/celebrity-news-gossip/world-war-z-review-ew</link>
+  <description>A sober telling of the aftermath of a war fought against a legion of humans who were inflicted with a virus, died and were re-animated into flesh-eating zombies.</description>
+  <item>
+    <title>World War Z</title>
+    <link>http://www.cnn.com/2013/06/21/showbiz/celebrity-news-gossip/world-war-z-review-ew</link>
+    <description>Just about every zombie movie I can think of is set, for the most part, in tightly defined spaces where groups of survivors huddle to fend off the flesh-hungry hordes outside.</description>
+  </item>
+  <item>
+    <title>Man of Steel</title>
+    <link>http://www.guardian.co.uk/film/2013/jun/11/man-of-steel-review</link>
+    <description>Back in 1978, Superman: the Movie became the film that kicked off cinema's superhero era; the tone, then, was jaunty self-parody, acknowledging correctly that the jaded decade in which it arrived could not support a face-value treatment of this straight-arrow comic-book hero</description>
+  </item>
+    <item>
+    <title>Fast &amp; Furious 6</title>
+    <link>http://www.huffingtonpost.com/jonathan-kim/rethink-review-emfast--fu_b_3350278.html</link>
+    <description>Dwayne "the Rock" Johnson is one of the biggest movie stars on the planet both physically and financially, earning him the nickname "franchise Viagra" for his uncanny ability to appear in sequels and provide a burst of energy and enthusiasm to revitalize flagging franchises.</description>
+  </item>
+    <item>
+    <title>This is the end</title>
+    <link>http://www.ew.com/ew/article/0,,20483133_20687779,00.html</link>
+    <description>You could sit through a year's worth of Hollywood comedies and still not see anything that's genuinely knock-your-socks-off audacious. But This Is the End (opening June 12) truly is. It's the wildest screen comedy in a long time, and also the smartest, the most fearlessly inspired, and the snort-out-loud funniest. The movie opens with Seth Rogen at an airport, where a passerby says, ''Hey, Seth Rogen, what up, man?'' So you immediately know that he's going to be playing a version of himself. In fact, everyone in the film is playing a version of him-or herself.</description>
+  </item>
+</channel>
+
+</rss>
