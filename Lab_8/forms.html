@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			Document Creator: Russell Schlup
+			Id Number: 3037399
+			Document Created: 6/24/2013
+		-->
+		<Meta charset="utf-8" />
+		<title>Lab 6: HTML Form</title>
+	</head>
+	<body>
+		<h1>Lab 6: HTML Form</h1>
+		<hr />
+		<h2> Sign Up Page </h2>
+		<form name="input" action="html_form_action.asp" method="get">
+			<fieldset form="Email Your Information">
+				<!--Input Form-->
+				<label for="Username">Username: <input type="text" name="user" /></label><br />
+				<label for="Password">Password: <input type="password" name="pwd" /></label><br />
+				<!--User Name & Password Input-->
+				<label for="First Name">First name: <input type="text" name="firstname" /></label><br />
+				<label for="LastName">Last name: <input type="text" name="lastname" /></label><br />
+				<label for="Sex Male">Male<input type="radio" name="sex" value="male" /></label>
+				<label for="Sex Female">Female<input type="radio" name="sex" value="female" /></label><br />
+				<!--Selector-->
+				<label for="Age">Age:<select>
+					<option value="13-18">13-18</option>
+					<option value="18-25">18-25</option>
+					<option value="25-35">25-35</option>
+					<option value="35-45">35-45</option>
+				</select></label><br />
+				<!--Checkboxes -->
+				<label for="Transportation">I have a bike<input type="checkbox" name="vehicle" value="Bike"></label>
+				<label for="Transportation">I have a car<input type="checkbox" name="vehicle" value="Car"></label><br />
+				<!--Text Area-->
+				<label for="Message">Message:<textarea rows="4" cols="50">Your Message Here...</textarea><br /></label>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+		<hr />
+	</body>
+</html>
